@@ -1,4 +1,4 @@
-# 🐾 Animal Species Classification — Deep Learning Assignment
+# Animal Species Classification — Deep Learning Assignment
 ### CT118-3-3 ODL | Optimisation and Deep Learning | Asia Pacific University (APU)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project applies deep learning to classify **15 animal species** from images using two architectures:
 
@@ -24,13 +24,13 @@ Both models are optimised using **Keras Tuner** (Hyperband for CNN, Bayesian Opt
 
 | | | | | |
 |--|--|--|--|--|
-| 🪲 Beetle | 🦋 Butterfly | 🐱 Cat | 🐄 Cow | 🐶 Dog |
-| 🐘 Elephant | 🦍 Gorilla | 🦛 Hippo | 🦎 Lizard | 🐒 Monkey |
-| 🐭 Mouse | 🐼 Panda | 🕷️ Spider | 🐯 Tiger | 🦓 Zebra |
+| Beetle | Butterfly | Cat | Cow | Dog |
+| Elephant | Gorilla | Hippo | Lizard | Monkey |
+| Mouse | Panda | Spider | Tiger | Zebra |
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ODL-Animal-Classification/
@@ -69,7 +69,7 @@ ODL-Animal-Classification/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 ```bash
@@ -108,7 +108,7 @@ DATASET_PATH = '/kaggle/input/animal-image-classification-dataset'
 
 ---
 
-## 🧠 Model Architectures
+## Model Architectures
 
 ### Model 1 — Custom CNN
 ```
@@ -144,7 +144,7 @@ Dense(15, softmax)
 
 ---
 
-## 📄 License
+## License
 
 This project is for academic purposes only.  
 Dataset credit: [Utkarsh Saxena on Kaggle](https://www.kaggle.com/datasets/utkarshsaxenadn/animal-image-classification-dataset)
